@@ -1,6 +1,6 @@
 <?php
 
-namespace Yangbx\CaptchaLumen;
+namespace bvtvd\CaptchaLumen;
 
 use Illuminate\Http\Request;
 use Laravel\Lumen\Routing\Controller;

@@ -1,13 +1,13 @@
 {
-    "name": "yangbx/captcha-lumen",
+    "name": "bvtvd/captcha-lumen",
     "description": "captcha for lumen",
     "keywords": ["lumen Captcha", "Captcha", "Captcha for api"],
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "yangbx",
-            "email": "joejoeyang0609@gmail.com"
+            "name": "hans",
+            "email": "hans01@foxmail.com"
         }
     ],
     "minimum-stability": "dev",
@@ -22,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Yangbx\\CaptchaLumen\\": "src/"
+            "bvtvd\\CaptchaLumen\\": "src/"
         },
         "files": [
             "src/helpers.php"

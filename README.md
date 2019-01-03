@@ -11,7 +11,7 @@
 * 此 Package 必須開啟 Cache 才能使用，因為驗證碼與綁定驗證碼的 uuid 都是保存在 Cache 的。
 
 ```
-composer require yangbx/captcha-lumen
+composer require bvtvd/captcha-lumen
 ```
 
 
@@ -20,8 +20,8 @@ composer require yangbx/captcha-lumen
 在`bootstrap/app.php`中註冊Captcha Service Provider：
 
 ```php
-    $app->register(Yangbx\CaptchaLumen\CaptchaServiceProvider::class);
-    class_alias('Yangbx\CaptchaLumen\Facades\Captcha','Captcha');
+    $app->register(bvtvd\CaptchaLumen\CaptchaServiceProvider::class);
+    class_alias('bvtvd\CaptchaLumen\Facades\Captcha','Captcha');
 ```
 
 
